@@ -1,0 +1,43 @@
+.default {
+    -fx-font-size: 16;
+    -fx-fill: whitesmoke;
+}
+
+.keyword {
+    -fx-font-size: 16;
+    -fx-fill: yellowgreen;
+    -fx-font-weight: bold;
+}
+
+.keyword2 {
+    -fx-font-size: 16;
+    -fx-fill: #ac00ac;
+    -fx-font-weight: bold;
+}
+
+.caretword {
+    -rtfx-background-color: #3b4f77;
+}
+
+
+.comment {
+    -fx-font-size: 16;
+    -fx-fill: #d77a35;
+}
+
+.number {
+    -fx-font-size: 16;
+    -fx-fill: #03d058;
+}
+
+.search {
+    -fx-font-size: 16;
+    -rtfx-background-color: #ffe500;
+    -fx-fill: #000000;
+}
+
+.searchFocus {
+    -fx-font-size: 16;
+    -rtfx-background-color: #fe8901;
+    -fx-fill: #fff;
+}

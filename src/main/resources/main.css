@@ -1,0 +1,98 @@
+.code-area {
+    -fx-font-family: monospace;
+    -fx-background-color: rgba(26, 38, 49, 0.82);
+}
+
+.styled-text-area .caret {
+    -fx-stroke: yellow;
+}
+
+.lineno {
+    -fx-font-family: monospace;
+    -fx-background-color: rgb(38, 38, 38);
+    -fx-text-fill: #666;
+    -fx-padding: 0 5px;
+}
+
+
+.search-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.12);
+    -fx-alignment: center-left ;
+    -fx-effect:  dropshadow(three-pass-box, rgba(189, 189, 189, 0.58), 10, 0, 0, 0);
+    -fx-max-height: 40px;
+    -fx-max-width: 260px;
+    -fx-spacing: 10px;
+    -fx-padding: 0px 0px 0px 10px;
+}
+
+.search-pane .text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.52);
+}
+
+.search-pane .text-field:not-found {
+    -fx-background-color: rgba(255,1,0,0.22);
+}
+
+.chevron-down{
+    -glyph-name: "CHEVRON_DOWN";
+    -glyph-size: 16px;
+    -fx-margin: 4px;
+    -icons-color: #3c3c3c;
+    -fx-fill: #3c3c3c;
+}
+
+.chevron-down:hover{
+    -glyph-name: "CHEVRON_DOWN";
+    -glyph-size: 16px;
+    -icons-color: black;
+    -fx-fill: black;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.2), 6, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+
+.chevron-up{
+    -glyph-name: "CHEVRON_UP";
+    -glyph-size: 16px;
+    -fx-margin: 4px;
+    -icons-color: #3c3c3c;
+    -fx-fill: #3c3c3c;
+}
+
+.chevron-up:hover{
+    -glyph-name: "CHEVRON_UP";
+    -glyph-size: 16px;
+    -icons-color: black;
+    -fx-fill: black;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.2), 6, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+
+.search-icon {
+    -glyph-name: "SEARCH";
+    -glyph-size: 14px;
+    -fx-margin: 4px;
+    -icons-color: #3c3c3c;
+    -fx-fill: #3c3c3c;
+}
+
+
+.cancel-icon {
+    -glyph-name: "TIMES";
+    -glyph-size: 16px;
+    -fx-margin: 4px;
+    -icons-color: #3c3c3c;
+    -fx-fill: #3c3c3c;
+}
+
+
+.cancel-icon:hover{
+    -glyph-name: "TIMES";
+    -glyph-size: 16px;
+    -icons-color: #6c0000;
+    -fx-fill: #6c0000;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.2), 6, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
