@@ -8,6 +8,16 @@ This is a ScalaFX demo that contains an simple YAML editor with syntax highlight
 <br />
 <br />
 
+## Run Project
+<br />
+
+```
+cd scalafx-yaml-editor
+sbt run
+```
+<br />
+
+
 ## Dependencies
 <br />
 
