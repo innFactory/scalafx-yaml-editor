@@ -2,7 +2,9 @@
 name := "ScalaFX Yaml Editor"
 
 // Project version
-version := "8.0.102-R11"
+version := "1.0.0"
+
+organization := "de.innfactory"
 
 // Version of Scala used by the project
 scalaVersion := "2.12.0"
